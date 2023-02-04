@@ -1,0 +1,15 @@
+{
+  "name": "promptdb",
+  "version": "1.0.0",
+  "description": "GPT as a database/state machine / A javascript version of [Backend GPT](https://github.com/TheAppleTucker/backend-GPT) a set of prompts to instruct GPT (openai text-davinci-003) to work as a database/state machine and 'API'.",
+  "main": "src/main.js",
+  "scripts": {
+    "post": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  }
+}
